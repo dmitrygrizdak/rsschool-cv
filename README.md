@@ -1,1 +1,1 @@
-https://dmitrygrizdak.github.io/rsschool-cv/
+https://dmitrygrizdak.github.io/rsschool-cv/cv
