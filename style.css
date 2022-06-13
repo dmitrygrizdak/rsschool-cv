@@ -1,12 +1,19 @@
-﻿style
+﻿@font-face {
+    font-family: 'Roboto';
+    src: url("assets/fonts/TiroGurmukhi-Regular.ttf");
+    font-weight: 300;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+style
 html
   
 body
 
-{background-color:brown}
-   
 {
-    font-family: 'Tiro Gurmukhi', serif;
+    font-family: 'TiroGurmukhi-Regular'
 }
 article
 p  {
@@ -15,9 +22,3 @@ p  {
 h1 {
     color: rgb(247, 243, 5);
     margin-left: 500px;}
-body
-   style
-
-     
-    
-   
