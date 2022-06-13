@@ -1,5 +1,5 @@
 ﻿@font-face {
-    font-family: 'Roboto';
+    font-family: 'TiroGurmukhi-Regular';
     src: url("assets/fonts/TiroGurmukhi-Regular.ttf");
     font-weight: 300;
   }
@@ -7,18 +7,63 @@
   * {
     box-sizing: border-box;
   }
-style
-html
-  
-body
+body 
+{ min-height: 100vh;
+    margin: 0 ; padding:0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 
-{
-    font-family: 'TiroGurmukhi-Regular'
-}
-article
-p  {
-     color:rgb(155, 73, 73);
-}
-h1 {
-    color: rgb(247, 243, 5);
-    margin-left: 500px;}
+    border: 1px solid red;
+  
+ font-family: 'TiroGurmukhi-Regular' 
+ 
+
+ }
+ .nav-list {
+    display: flex ;
+    justify-content: flex-end ;
+    align-items: center ;
+    
+    
+  }
+ .container {
+    max-width: 1440px;
+    margin: 0 auto;
+  }
+
+  html {
+    scroll-behavior: smooth; 
+  }
+  .nav-list {
+    list-style: none;
+  }
+  .nav-link {
+    padding: 0 20px;
+    line-height: 50px;
+    color: black;
+
+  }
+
+:hover
+.nav-link {
+    transition: .3s;
+  }
+  .section-item a {
+    color: #18d832;
+    text-decoration: none;  
+    transition: color 0.5s;
+  }
+  .section-item a:hover {
+    color: #a30000;
+  }
+  .section-item a {
+    color: #829985;
+    text-decoration: none;  
+    transition: color 0.5s;
+  }
+  .section-item a:hover {
+    color: #4d2323;
+  }
+
+
